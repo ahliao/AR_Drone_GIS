@@ -29,4 +29,15 @@ Example of GeoTIFF
 - Import into ArcMaps
 
 Is this what we need?
--
+- Based on the survey results
+	- Do farmers use GIS directly or have some one do the analysis?
+	- Can we just provide GeoTIFFs from the drone images?
+
+Next Steps
+- Pull an image from the drone and georeferencing
+	- Either with the GPS or with mock values
+- Look into creating a basemap for our April Tag System
+	- Lets us test GeoTIFF indoors
+	- Important because of the low-resolution on the bottom camera
+- Work with image-stitching + GPS to add the 3+ control points needed
+	- Using either the source code or the tools given

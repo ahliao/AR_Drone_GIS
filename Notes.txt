@@ -1,0 +1,32 @@
+Research for the presentation on Friday March 12, 2014
+on GIS and GeoTIFF implementation.
+
+What is GIS?
+- GIS (Geographical Information System): system that manages and analyzes 
+	geographical data. Used to provide spatial data visualization.
+- Raster GIS: Uses cartography and imagery data to give a representation 
+	of the studied area. Reveals relationships
+		- Ex. vegetation, land use, urban change
+
+How GIS helps farmers
+- Shows growth or crop
+- Reveals problem areas and also trends in growth with data like moisture
+
+What is GeoTIFF?
+- Based on the TIFF raster data format
+- Stores georeferencing data with the image in one file
+	- Normally an image has to be georeferenced manually (control points)
+- Because it is a georeferenced image, can be imported into most GSI
+	software and layered onto a georeferenced basemap
+
+Creating GeoTIFF
+- GDAL (Geospatial Data Abstraction Library)
+	- Open source translator library for raster geospatial data formats
+- Provides the code and tools to create georeferenced images
+
+Example of GeoTIFF
+- First show how to create one using gdal_translate + gdaltransform
+- Import into ArcMaps
+
+Is this what we need?
+-
